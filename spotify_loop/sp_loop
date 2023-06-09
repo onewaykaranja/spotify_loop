@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SONG_URI="https://open.spotify.com/track/0oakJsz6AkM8NP7SuEXct1?si=aa81e53c663043f1"
+
+# Spotify playback loop
+function start_spotify_loop() {
+  while true; do
+    spotify --one-shot $SONG_URI
+  done
+}
+
+# Call the function to start the loop
+start_spotify_loop
