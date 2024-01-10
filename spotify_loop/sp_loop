@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SONG_URI="https://open.spotify.com/track/0oakJsz6AkM8NP7SuEXct1?si=aa81e53c663043f1"
+SONG_URI="https://open.spotify.com/track/0zv6iIwVr3J9SftqWPQpJn?si=0Zr1wvC2QXyywzJakkxwvw&context=spotify%3Aplaylist%3A37i9dQZF1EJCaqygKn39WE"
 
 # Spotify playback loop
 function start_spotify_loop() {
